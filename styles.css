@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body 
+{color:white ;
+font-size : 16px;
+font-weight:normal;
+font-family: 'Roboto', sans-serif;
+font: bolt 120xp 'Roboto', sans-serif;
+}
+     
+h1 {color:azure; font-size: 30px;text-align: left;}
+
+
+h2 {color: azure;font-size: 30px;}
+
+.avatar {
+    width: 350px;
+    display: flex; margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 14px rgba(red, green, rgba(0, 0, 255, 0.685), alpha);
+    }
+
+.bg-yellow {
+    width: 1000px;
+    display: flex; margin-bottom: 20px;
+    background-color: rgba(134, 63, 4, 0.651);
+    }
+
+.bg-blue {
+ width: 1300px; 
+ display: flex; margin-bottom: 20px;
+ background: rgba(55, 4, 138, 0.548);       
+}
+
+.bg-purple {
+    width:600px;
+    background: rgba(13, 20, 97, 0.548);       
+   }
+
+.bg-red {
+    width:350px;
+      background:rgba(179, 71, 21, 0.582);       
+   }
+
+
+.card {
+        padding: 15px 20px;
+            margin-bottom: 20px;
+                border-radius: 20px;
+}
+
+.list {
+    padding:  0 20px;}
+
+.list li {color: rgb(216, 207, 207);
+            margin-bottom: 10px;
+}
+
+.table {width: 100%; padding-bottom: 10px;}
+
+.info {display: flex; margin-bottom: 20px;} 
+@media (max-width :700px) {
+.info{display: block;text-align: center;
+    }
+}  
+
+.info-text { margin-left: 20px; margin-bottom: 10px;}
+
